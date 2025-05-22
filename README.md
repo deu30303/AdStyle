@@ -5,7 +5,7 @@ This repo is the PyTorch codes for "Adversarial Style Augmentation via Large Lan
 
 
 ## Overall model architecture ##
-<center><img src="./figure/model_arch.PNG"> </center>
+<center><img src="./figures/model_arch.png"> </center>
 
 ## Usage ##
 ```
