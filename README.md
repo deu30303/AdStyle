@@ -8,6 +8,7 @@ This repo is the PyTorch codes for "Adversarial Style Augmentation via Large Lan
 <center><img src="./figure/model_arch.PNG"> </center>
 
 ## Usage ##
+```
 usage: main_adstyle.py [-h] [--train_dir TRAIN_DIR] [--test_dir TEST_DIR] [--pretrained_dir PRETRAINED_DIR] [--api_key API_KEY] [--num_shards NUM_SHARDS] [--batch_size BATCH_SIZE] [--round ROUND] [--lr LR] [--max_len MAX_LEN]
 
 optional arguments:
@@ -24,7 +25,7 @@ optional arguments:
   --round ROUND         training rounds
   --lr LR               learning rate
   --max_len MAX_LEN     max token length
-
+```
 
 
 ## Model ZOO ##
