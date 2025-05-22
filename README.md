@@ -8,7 +8,22 @@ This repo is the PyTorch codes for "Adversarial Style Augmentation via Large Lan
 <center><img src="./figure/model_arch.PNG"> </center>
 
 ## Usage ##
-augment_train/test_dataset.py : Code for applying style conversion prompts to the initial training and test datasets
+usage: main_adstyle.py [-h] [--train_dir TRAIN_DIR] [--test_dir TEST_DIR] [--pretrained_dir PRETRAINED_DIR] [--api_key API_KEY] [--num_shards NUM_SHARDS] [--batch_size BATCH_SIZE] [--round ROUND] [--lr LR] [--max_len MAX_LEN]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --train_dir TRAIN_DIR
+                        train set direcotry
+  --test_dir TEST_DIR   test set direcotry
+  --pretrained_dir PRETRAINED_DIR
+                        sheepdog pretrained model direcotry
+  --api_key API_KEY     OpenAI API KEY
+  --num_shards NUM_SHARDS
+  --batch_size BATCH_SIZE
+                        batch size
+  --round ROUND         training rounds
+  --lr LR               learning rate
+  --max_len MAX_LEN     max token length
 
 
 
