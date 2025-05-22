@@ -33,10 +33,9 @@ Currently, we provide the pretrained model (Sheepdog) used as a starting point f
 ### Pretrained Model ###
 | Dataset           | model | 
 |-------------------|---------------|
-|Politifact         | [Download]()  |
-|Gossipcop          | [Download]()  |
-|Constraint         | [Download]()  |
-
+|Politifact         | [Download](https://drive.google.com/file/d/1LZNU-xSWvMPd6T44u0lTMYSr5Ln4B7R9/view?usp=sharing)  |
+|Gossipcop          | [Download](https://drive.google.com/file/d/1IUN5iQKhSqRTBOCMBKnPQ1FEBRM4hHjv/view?usp=sharing)  |
+|Constraint         | [Download](https://drive.google.com/file/d/16CtbPjyILGc1P1EcDDXhrckw22mKQ5aT/view?usp=sharing)  |
 
 
 ## Citation
