@@ -9,7 +9,7 @@ This repo is the PyTorch codes for "Adversarial Style Augmentation via Large Lan
 
 ## Usage ##
 ```
-usage: main_adstyle.py [-h] [--train_dir TRAIN_DIR] [--test_dir TEST_DIR] [--pretrained_dir PRETRAINED_DIR] [--api_key API_KEY] [--num_shards NUM_SHARDS] [--batch_size BATCH_SIZE] [--round ROUND] [--lr LR] [--max_len MAX_LEN]
+usage: main_adstyle.py [-h] [--train_dir TRAIN_DIR] [--test_dir TEST_DIR] [--pretrained_dir PRETRAINED_DIR] [--api_key API_KEY] [--batch_size BATCH_SIZE] [--round ROUND] [--lr LR] [--max_len MAX_LEN]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -19,7 +19,6 @@ optional arguments:
   --pretrained_dir PRETRAINED_DIR
                         sheepdog pretrained model direcotry
   --api_key API_KEY     OpenAI API KEY
-  --num_shards NUM_SHARDS
   --batch_size BATCH_SIZE
                         batch size
   --round ROUND         training rounds
