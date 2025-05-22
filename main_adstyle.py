@@ -23,7 +23,6 @@ def get_args():
     parser.add_argument('--test_dir', default="./dataset/politifact_test_data.jsonl_pp")
     parser.add_argument('--pretrained_dir', default="./models/politifact_augment_detector.pt")
     parser.add_argument('--api_key', default="API_KEY")
-    parser.add_argument('--num_shards', default=1, type=int)
     parser.add_argument('--batch_size', default=4, type=int)
     parser.add_argument('--round', default=10, type=int)
     parser.add_argument('--lr', type=float, default=1e-5, help='learning rate (default: 1e-5)')
